@@ -5,6 +5,7 @@ html{
 /* This messes with my banner up top */
 .banner{
     background-image: url("better banner.jpg");
+    background-size: cover;
     text-align: left;
     color: white;
     padding: 20px;
