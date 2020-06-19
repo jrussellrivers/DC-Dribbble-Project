@@ -1,0 +1,210 @@
+html{
+    background-color: rgb(182, 235, 240);
+    font-family: 'Roboto', sans-serif;
+}
+/* This messes with my banner up top */
+.banner{
+    background-image: url("better banner.jpg");
+    text-align: left;
+    color: white;
+    padding: 20px;
+    min-height: 250px;
+    margin: 20px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+h1{
+    margin: 50px;
+}
+.info button{
+    margin: 40px;
+}
+
+/* ---------------------------------------------------- */
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.company-block{
+    border: transparent;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    margin: 20px;
+}
+.company-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.company-title h2 img{
+    padding-right: 5px;
+}
+.company-title a{
+    text-decoration: none;
+}
+.company-stats p{
+    display: flex;
+    justify-content: space-between;
+}
+.company-stats p button{
+    border-radius: 20px;
+    background-color: rgb(182, 235, 240);
+    border: transparent;
+}
+.company-stats p span:nth-child(2){
+    color: rgb(126, 126, 126);
+}
+.market-tags button{
+    border-radius: 20px;
+    background-color: rgb(119, 191, 197);
+    border: transparent;
+    color: rgb(26, 83, 88);
+    margin: 3px;
+}
+.company h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+.company-block h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+/* ---------------------------------------------------- */
+
+.right-body{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    justify-content: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+.topright-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.email-block{
+    color: rgb(26, 83, 88);
+    border: transparent white;
+    padding: 20px;
+    background-color: rgb(119, 191, 197);
+    width: 400px;
+    margin: 20px;
+}
+.email{
+    text-align: center;
+}
+.email input{
+    padding: 5px 80px;
+    text-align: center;
+}
+.check{
+    margin: 10px 0px;
+}
+/* ---------------------------------------------------- */
+
+.jobs-list{
+    border: transparent;
+    padding: 20px 0px;
+    background-color: white;
+    max-width: 400px;
+    margin: 20px;
+    height: inherit;
+}
+.jobs{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+.jobs:hover{
+    background-color: rgb(119, 191, 197);
+    color: rgb(26, 83, 88);
+}
+.jobs img{
+    padding-right: 16px;
+}
+/* ---------------------------------------------------- */
+.bottom-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.job-description{
+    border: transparent;
+    padding: 20px;
+    background-color: white;
+    min-width: 400px;
+    margin: 20px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+.job-description2{
+    border: transparent;
+    padding: 20px;
+    background-color: white;
+    min-width: 400px;
+    margin: 20px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+.job-line1-1 span, button{
+    margin: 0px 5px;
+}
+.job-line1-1{
+    display: flex;
+    justify-content: space-between;
+}
+.job-line1-2{
+    display: flex;
+    justify-content: space-between;
+}
+.job-line1-1 span:nth-child(1), a{
+    margin: 0px 5px;
+}
+.job-line1-1 button{
+    border-radius: 20px;
+    background-color: rgb(119, 191, 197);
+    border: transparent;
+    color: rgb(26, 83, 88);
+}
+.job-line2-1 span, button{
+    margin: 0px 5px;
+}
+.job-line2-1{
+    display: flex;
+    justify-content: space-between;
+}
+.job-line2-2{
+    display: flex;
+    justify-content: space-between;
+}
+.job-line2-1 span:nth-child(1), a{
+    margin: 0px 5px;
+}
+.job-line2-1 button{
+    border-radius: 20px;
+    background-color: rgb(119, 191, 197);
+    border: transparent;
+    color: rgb(26, 83, 88);
+}
+.job-line1-2 span{
+    color: rgb(126, 126, 126);
+}
+.job-line2-2 span{
+    color: rgb(126, 126, 126);
+}
